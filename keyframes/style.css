@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@keyframes fly {
+  from {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(200%, -50px);
+  }
+
+  to {
+    transform: translate(100vw, 0);
+  }
+}
+
+.box {
+  background-color: yellow;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.25);
+
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: fly 1s;
+}
