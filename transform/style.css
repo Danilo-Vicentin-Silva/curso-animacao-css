@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.circle {
+  background-color: blue;
+
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+  transform: translateX();
+}
+
+.box {
+    outline: 5px solid red;
+}
+
