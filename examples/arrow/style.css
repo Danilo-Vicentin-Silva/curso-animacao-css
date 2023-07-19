@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@keyframes is-bouncing {
+  to {
+    transform: translateY(30px);
+  }
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vw;
+}
+
+.icon {
+  width: 200px;
+  animation: is-bouncing 1s ease-in-out infinite alternate;
+}
